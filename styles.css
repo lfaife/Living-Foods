@@ -1,0 +1,32 @@
+.nav-container {
+    border: 1px solid rgb(0,120,0);
+    padding: 1rem;
+    background-color: rgb(54, 136, 72);
+    opacity: 85%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+}
+
+nav a {
+    text-decoration:none;
+    color: #000;
+    font-size: 1.5em;
+    /* border: 2px solid rgb(96 139 168);
+    border-radius: 5px; */
+    /* background-color: rgba(230, 232, 234, 0.2); */
+    padding: 10px;
+    margin-right: .5em;
+    display: block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+    transition: 0.4s;
+}
